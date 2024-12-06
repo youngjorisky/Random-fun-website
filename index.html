@@ -1,0 +1,54 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lacquer&display=swap" rel="stylesheet">
+    <title>Test Experiment with Zach</title>  
+</head>  
+<body>  
+
+    <div class="container">  
+        <div class="section left">  
+            <h2>Output</h2>  
+            <h4>Programmer Memes</h4>  
+            <div class="memedisplay">
+
+            </div>
+            <h4>Tell me something funny</h4> 
+            <div class="jokedisplay">
+
+            </div>
+            <h4>Give me some wisdom...</h4> 
+            <div class="wisdomdisplay">
+
+            </div>
+            <h4>I want a riddle</h4> 
+            <div class="riddledisplay">
+
+            </div>
+            <div class="answerdisplay">
+
+            </div>
+        </div>  
+        
+        <div class="vertical-line"></div>  
+        
+        <div class="section right">  
+            <h2>Actions</h2>  
+
+            <div class="the-answers">
+                <p><button onclick="showmeme()">Show a Meme</button></p>
+                <p><button onclick="telljoke()">Tell me a Joke!</button></p>
+                <p><button onclick="randomquote()">Random Quote</button></p>
+                <p><button onclick="riddle()">Riddle me</button></p>
+                <p class="riddle-answer" onclick="riddleanswer()">Reveal Riddle Answer</p>
+            </div>
+        </div>  
+    </div>  
+<script src="index.js"></script>
+</body>  
+</html>

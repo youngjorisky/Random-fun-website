@@ -1,0 +1,70 @@
+body {
+    font-family: "Lacquer", system-ui;
+    margin: 0; 
+    padding: 50px; 
+    background-color: rgb(16, 20, 19);
+    font-size: 20px;
+}
+
+.container {
+    display: flex; 
+    justify-content: center; 
+    align-items: stretch; 
+    height: 100vh; 
+}
+
+.section {
+    padding: 40px; 
+    color: rgb(126, 126, 42);; 
+
+}
+
+.left {
+    flex: 0 0 57%; 
+}
+
+.right {
+    flex: 0 0 35%; 
+}
+
+.vertical-line{
+    height: 80%;
+    border: 1px solid rgb(126, 126, 42, 0.5);
+}
+
+button {
+    font-family: inherit;
+    font-size: 18px;
+    width: 300px;
+    height: 60px;
+    margin: 10px 0;
+    border-radius: 10px;
+    color: rgb(126, 126, 42);
+    border: 2px solid rgb(126, 126, 42);
+    background-color: rgb(16, 20, 19);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(126, 126, 42);
+    color: rgb(16, 20, 19);
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 5px 2px rgba(126, 126, 42, 0.8);
+}
+
+.riddle-answer{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.the-answers{
+    display: flex;           
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;     
+}
+
